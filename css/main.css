@@ -5434,7 +5434,6 @@ a:hover {
 
 /* 11 nav */
 .nav ul {
-	overflow: hidden;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5480,11 +5479,6 @@ a:hover {
   .nav a:hover::before, .nav a:focus::before {
     opacity: 1;
     bottom: -20px;
-}
-
-.nav a:hover {
-	color: #ffc341;
-	transition: all .6s; 
 }
 
 /* 12 section */
