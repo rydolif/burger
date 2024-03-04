@@ -11,34 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="theme-color" content="#000">
 
-	<!-- favicon -->
 		<link rel="icon" href="img/favicon.ico">
 
-	<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Coustard:400,900" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 
-	<!-- stylesheet -->
-
-		<!-- full min -->
-			<link rel="stylesheet" href="css/main.min.css">
-
-		<!-- full -->
-			<!--<link rel="stylesheet" href="css/main.css"> -->
-
-	<!-- stylesheet-end -->
+			<link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
 	
-	<!-- button-up -->
 		<div class="button-up click">
 			<a href="#hero" class=""></a>
 		</div>
-	<!-- button-up-end -->
 
-	<!-- preloader -->
 		<div id="preloader">
 			<div id="ctn-preloader" class="ctn-preloader">
 				<div class="animation-preloader">
@@ -68,9 +55,7 @@
 				<div class="loader-section section-right"></div>
 			</div>
 		</div>
-	<!-- preloader-end -->
 
-	<!-- header -->
 		<header class="header">
 			<div class="container header__container">
 		
@@ -103,9 +88,7 @@
 
 			</div>
 		</header>
-	<!-- header-end -->
-	
-	<!-- hero -->
+
 		<section class="hero" id="hero">
 			<div class="container hero__container">
 
@@ -119,9 +102,7 @@
 				</div>
 			</div>
 		</section>
-	<!-- hero-end -->
 
-	<!-- menu -->
 		<section class="menu section" id="menu">
 			<div class="container menu__container">
 
@@ -275,9 +256,7 @@
 
 			</div>
 		</section>
-	<!-- menu-end -->
 
-	<!-- ingredients -->
 		<section class="ingredients section" id="ingredients">
 			<div class="container section__container">
 
@@ -547,9 +526,7 @@
 
 			</div>
 		</section>
-	<!-- ingredients-end -->
 
-	<!-- tables -->
 		<section class="tables section" id="tables">
 			<div class="container">
 
@@ -592,9 +569,7 @@
 				</div>
 			</div>
 		</section>
-	<!-- tables-end -->
 
-	<!-- order -->
 		<section class="order section" id="order">
 			<div class="container order__container">
 
@@ -621,9 +596,7 @@
 
 			</div>
 		</section>
-	<!-- order-end -->
-	
-	<!-- reviews -->
+
 		<section class="reviews section" id="reviews">
 			<div class="container">
 				
@@ -674,9 +647,7 @@
 
 			</div>
 		</section>
-	<!-- reviews-end -->
 
-	<!-- gallery -->
 		<section class="gallery section" id="gallery">
 			<div class="container gallery__container">
 
@@ -711,9 +682,7 @@
 
 
 		</section>
-	<!-- gallery-end -->
 
-	<!-- philosophy -->
 		<section class="philosophy section" id="philosophy">
 			<div class="container philosophy__container">
 
@@ -768,9 +737,7 @@
 
 			</div>
 		</section>
-	<!-- philosophy-end -->
 
-	<!-- contacts -->
 		<section class="contacts section" id="contacts">
 			<div class="container section__container">
 
@@ -806,16 +773,14 @@
 					</div>
 
 					<div class="order-md-1 col-md-7 col-lg-6">
-						<div class="contacts__map" id="map"></div>
+						<iframe class="contacts__map" src="https://www.google.com/maps/d/embed?mid=1NhRcCG7FNJMzqcM5yZEdsFX5OMY&hl=ru&ehbc=2E312F" width="640" height="480"></iframe>
 					</div>
 
 				</div>
 
 			</div>
 		</section>
-	<!-- contacts-end -->
 
-	<!-- footer -->
 		<footer class="footer">
 			<div class="container footer__container header__container">
 		
@@ -842,36 +807,8 @@
 
 			</div>
 		</footer>
-	<!-- footer-end -->
 
-	<!-- script -->
-		<!-- full min -->
-			<script src="js/scripts.min.js"></script>
-
-		<!-- full -->
-			<!-- <script src="js/scripts.js"></script> -->
-
-		<!-- map -->
-		    <script>
-		      function initMap() {
-		        var uluru = {lat: 34.9307386, lng: 33.6249393};
-		     	var map=new google.maps.Map(document.getElementById("map"),{zoom:16,center:uluru,styles:[{featureType:"all",elementType:"labels.text.fill",stylers:[{saturation:36},{color:"#000000"},{lightness:40}]},{featureType:"all",elementType:"labels.text.stroke",stylers:[{visibility:"on"},{color:"#000000"},{lightness:16}]},{featureType:"all",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"administrative",elementType:"geometry.fill",stylers:[{color:"#000000"},{lightness:20}]},{featureType:"administrative",elementType:"geometry.stroke",stylers:[{color:"#000000"},{lightness:17},{weight:1.2}]},{featureType:"landscape",elementType:"geometry",stylers:[{color:"#000000"},{lightness:20}]},{featureType:"poi",elementType:"geometry",stylers:[{color:"#000000"},{lightness:21}]},{featureType:"road.highway",elementType:"geometry.fill",stylers:[{color:"#000000"},{lightness:17}]},{featureType:"road.highway",elementType:"geometry.stroke",stylers:[{color:"#000000"},{lightness:29},{weight:.2}]},{featureType:"road.arterial",elementType:"geometry",stylers:[{color:"#000000"},{lightness:18}]},{featureType:"road.local",elementType:"geometry",stylers:[{color:"#000000"},{lightness:16}]},{featureType:"transit",elementType:"geometry",stylers:[{color:"#000000"},{lightness:19}]},{featureType:"water",elementType:"geometry",stylers:[{color:"#000000"},{lightness:17}]}]});
-
-		          var marker = new google.maps.Marker({
-		            position: uluru,
-		            map: map,
-		            icon: 'img/mark.png'
-		          });
-
-		          var infowindow = new google.maps.InfoWindow({
-		            });
-
-		          }
-		    </script>
-		    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmnk4RCDwjSucIJ2WXRnLkuCrsWR4DUM4&callback=initMap"></script>
-
-	<!-- script-end -->
-
+		<script src="js/scripts.js"></script>
 
 
 </body>

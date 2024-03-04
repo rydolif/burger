@@ -1984,7 +1984,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -4881,7 +4882,7 @@ template {
 
 /* 6 base-style */
 body {
-  overflow-x: hidden;
+	overflow-x: hidden;
   position: relative;
   min-width: 320px;
   font-family: "Patua One", sans-serif;
@@ -4889,9 +4890,7 @@ body {
   letter-spacing: 1.5px;
   color: #fefefe;
   line-height: 1.4;
-  font-weight: 400;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d; }
+  font-weight: 400; }
 
 ::-moz-selection {
   background-color: #ffc341;
@@ -5320,8 +5319,8 @@ a:hover {
     transition: all .6s ease;
     -webkit-animation: up 2s ease-in infinite;
             animation: up 2s ease-in infinite;
-    -webkit-box-shadow: 0 0 15px 5px black;
-            box-shadow: 0 0 15px 5px black;
+    -webkit-box-shadow: 0 0 15px 5px #fff;
+            box-shadow: 0 0 15px 5px #fff;
     -webkit-border-radius: 50%;
             border-radius: 50%; }
     .button-up a:hover {
@@ -5435,6 +5434,7 @@ a:hover {
 
 /* 11 nav */
 .nav ul {
+	overflow: hidden;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5479,7 +5479,13 @@ a:hover {
     transition: all .6s; }
   .nav a:hover::before, .nav a:focus::before {
     opacity: 1;
-    bottom: -20px; }
+    bottom: -20px;
+}
+
+.nav a:hover {
+	color: #ffc341;
+	transition: all .6s; 
+}
 
 /* 12 section */
 .section {
@@ -6125,7 +6131,8 @@ a:hover {
   text-align: right;
   overflow: hidden; }
   .contacts__map {
-    height: 400px; }
+    height: 400px;
+		width: 100%; }
   .contacts__content {
     text-align: left;
     display: -webkit-box;
